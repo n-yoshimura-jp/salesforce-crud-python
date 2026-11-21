@@ -1,0 +1,26 @@
+# 秘密情報（.env.example だけはテンプレートとしてコミットする）
+.env
+.env.*
+!.env.example
+
+# 個人情報を含む可能性がある CSV（実データ・失敗レコードの出力）
+# ダミーデータのサンプル（samples/）だけはコミットする
+data/
+*.csv
+!samples/*.csv
+
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+
+# OS・エディタ
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code の個人設定
+.claude/settings.local.json

@@ -1,0 +1,2 @@
+Salesforce Standard Objects（標準オブジェクト一覧）
+https://developer.salesforce.com/docs/platform/object-reference/references/standard-objects/sforce-api-objects-list.html
